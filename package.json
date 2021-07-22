@@ -1,0 +1,14 @@
+{
+  "name": "WebSocket_ToDo_App",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Mucha99/WebSocket_ToDo_App.git",
+  "author": "Bartek Mucha <bartekmucha43@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
