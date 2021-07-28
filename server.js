@@ -11,7 +11,7 @@ const io = socket(server);
 
 io.on('connection', (socket) => {
     console.log('New user! Its id - ' + socket.id);
-    io.to(socket.id).emit('updateData', tasks)
+    io.to(socket.id).emit('updateData', tasks);
     socket.on('addTask', (task) => {
         console.log('Add new task ! ' + socket.io);
         tasks.push(task);
